@@ -99,7 +99,6 @@ for (class_lipid in names(class_color)) {
       
     }else {
       lipid.exp.sum.PUMU.plot_sub[,paste0(i,'_sum')] = apply(lipid.exp.sum.PUMU.plot_sub[,grep(paste0("^",i,'\\d'), colnames(lipid.exp.sum.PUMU.plot_sub))], 1, sum)
-      
     }
   }
   
